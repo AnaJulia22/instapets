@@ -5,3 +5,24 @@
   text-align: center;
 }
 
+.Home {
+  margin-bottom: 50%;
+  position: absolute;
+  color: rgb(247, 247, 236);
+}
+
+.Entrar {
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  color: black;
+  background-color:rgb(247, 247, 236);
+}
+
+.NovaConta {
+  position: absolute;
+  top: 95%;
+  left: 55%;
+  color: black;
+  background-color:rgb(247, 247, 236);
+}
