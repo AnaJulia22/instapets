@@ -1,5 +1,6 @@
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 import "C:/Users/anaju/instapets/src/components/NewPost/styles.css";
+import React from "react";
 
 function Create() {
   
