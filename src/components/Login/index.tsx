@@ -1,4 +1,4 @@
-import "C:/Users/anaju/instapets/src/components/Login/styles.css";
+import "./styles.css";
 import { ChangeEvent, FormEvent, useEffect, useState } from "react";
 
 import { NavLink } from "react-router-dom";
