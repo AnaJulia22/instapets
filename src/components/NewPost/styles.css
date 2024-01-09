@@ -100,23 +100,7 @@ input {
     &:hover {
       opacity: 0.9;
     }  
-}
-
-input[type='submit']{
-    width: 145px;
-    font-weight: 500;
-    border-radius: 0.3125rem;
-    background: #6272A4;    
-    color: #FFF;
-    text-align: center;
-    cursor: pointer;
-    top: 430px; 
-    position: absolute;
-    &:hover {
-      opacity: 0.9;
-    }  
-    
-}
+} 
 
 .imagem-container {
     width: 218px;
@@ -179,5 +163,17 @@ input[type='submit']{
     left: 495px;
 } 
 
-
-   
+.publicar {
+    width: 145px;
+    font-weight: 500;
+    border-radius: 0.3125rem;
+    background: #6272A4;    
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    top: 430px; 
+    left: 45%;
+    &:hover {
+      opacity: 0.9;
+    }
+}

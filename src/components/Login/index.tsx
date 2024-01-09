@@ -49,13 +49,18 @@ function Login({ loginType }: LoginProps) {
             onChange={handleChangePassword}
             required
           />
-          <input
-            type="submit"
-            value={loginType === "login" ? "Entrar" : "Criar"}
-          />
+          <NavLink to="/icon">
+            <input
+              type="submit"
+              value={loginType === "login" ? "Entrar" : "Criar conta  "}
+            />
+          </NavLink>
         </form>
         {loginType === "login" ? (
-          <NavLink to="/signup">Criar nova conta</NavLink>
+          <NavLink to="/signup">
+            Ainda não tem uma conta? <br /> 
+            Criar nova conta
+          </NavLink>
         ) : (
           <NavLink to="/login">Já tenho uma conta</NavLink>
         )}

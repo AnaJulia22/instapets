@@ -72,6 +72,7 @@ function Box({ onClose }: { onClose: () => void }) {
         </div>
 
         <input 
+          className="publicar"
           type="submit"
           value = {"Publicar"}
         />
